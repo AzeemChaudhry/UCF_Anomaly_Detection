@@ -1,43 +1,42 @@
 # Python
-venv/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
-.pytest_cache/
+.installed.cfg
+*.egg
 
-# Data (DON'T commit large files)
-data/
-features/
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Project Specific
+outputs/
 *.h5
-*.npy
-*.hdf5
+*.log
+*.pdf
+ucf_crime_features_labeled.h5
 
-# Model checkpoints
-save/
-logs/
-checkpoints/
-*.pth
-*.ckpt
-
-# Outputs
-visualization/
-results/
-
-# IDE
+# IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# Temporary
-tmp/
-temp/
